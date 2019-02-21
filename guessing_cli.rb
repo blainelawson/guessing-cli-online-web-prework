@@ -6,7 +6,6 @@ def run_guessing_game
 
     
   while guess != "exit" do
-    puts "Guess a number between 1 and 6."
     guess = gets.chomp
   
     if guess.to_i == rand_num
