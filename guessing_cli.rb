@@ -11,7 +11,7 @@ def run_guessing_game
       puts "You guessed the correct number!"
     elsif guess == "exit"
       break
-    else
+    elseif
       puts "The computer guessed #{rand_num}"
     end
   end
