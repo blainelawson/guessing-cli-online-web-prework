@@ -13,6 +13,7 @@ def run_guessing_game
       break
     elsif guess.to_i != rand_num
       puts "The computer guessed #{rand_num}"
+      break
     end
   end
   
