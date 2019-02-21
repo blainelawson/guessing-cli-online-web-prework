@@ -13,7 +13,6 @@ def run_guessing_game
       puts "Goodbye!"
     else
       puts "The computer guessed #{rand_num}"
-      break
     end
     
   # while guess != "exit" do
