@@ -13,7 +13,7 @@ def run_guessing_game
     elsif guess == "exit"
       break
     else
-      puts "The computer guessed #{rand_num}"
+      puts "The computer guessed #{rand_num}."
     end
   end
   
